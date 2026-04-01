@@ -7,21 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div class="landing-page">
         <header id="main-header">
             <div class="logo-container">
                 <div class="logo">
-                    <img src="https://github.com/jabaabulagcoc/Logo/raw/main/FB_IMG_1774955333085.jpg" alt="ARTSEE CAFE Logo">
+                    <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Logo.jpg" alt="ARTSEE CAFE Logo">
                 </div>
                 <h1 class="brand-name">ARTSEE CAFE</h1>
             </div>
             <nav>
                 <a href="#">HOME</a>
                 <a href="#about-us">ABOUT US</a>
-                <a href="#">PRODUCTS</a>
+                <a href="#products">PRODUCTS</a>
                 <a id="contact-trigger">CONTACTS</a>
             </nav>
         </header>
@@ -51,7 +51,52 @@
         </div>
     </section>
 
-    <script src="header-script.js"></script>
-    <script src="contact-panel-script.js"></script>
+<section id="products" class="products-section">
+    <h2 class="section-title">Our Menu</h2>
+
+    <div class="banner-carousel">
+        <div class="carousel-slides">
+            <div class="carousel-slide active">
+                <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Frappe.jpg" alt="Frappe" class="carousel-img">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Drinks.jpg" alt="New Banner" class="carousel-img">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Frappe.jpg" alt="Frappe" class="carousel-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-banner">
+        <div class="category-header">
+            <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Hungery%3F.jpg" alt="Image 3" class="category-img">
+        </div>
+    </div>
+    <div class="menu-category">
+        <div class="category-header">
+            <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Breakfast.jpg" alt="Image 4" class="category-img">
+        </div>
+    </div>
+    <div class="menu-category">
+        <div class="category-header">
+            <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Meal.jpg" alt="Image 5" class="category-img">
+        </div>
+    </div>
+    <div class="menu-category">
+        <div class="category-header">
+            <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Pasta.jpg" alt="Image 6" class="category-img">         
+        </div>
+    </div>
+    <div class="menu-category">
+        <div class="category-header">
+            <img src="https://github.com/jabaabulagcoc/Logo/raw/main/Beverages.jpg" alt="Image 7" class="category-img"> 
+        </div>
+    </div>
+</section>
+
+    <script src="scripts/header-script.js"></script>
+    <script src="scripts/contact-panel-script.js"></script>
+    <script src="scripts/carousel-script.js"></script>
 </body>
 </html>
